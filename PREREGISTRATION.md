@@ -1,7 +1,7 @@
 # Pre-registration: Do LLMs reason with model explanations, or defer to them one way?
 
 - **Author:** Jhishan Deb
-- **Registered:** 2026-10-__ (the GitHub commit and the `prereg-v1` release date are the authoritative timestamps)
+- **Registered:** 2026-10-17 (the GitHub commit and the `prereg-v1` release date are the authoritative timestamps)
 - **Status:** written and committed **before any confirmatory run**. No model output on the dev or test patients of this study has been seen.
 - **Changes:** any change after this commit is listed in the "Deviations" section at the end, with date and reason. This file is never edited silently.
 
@@ -199,4 +199,4 @@ All measures are per model × dataset, on the alarm framing with example set A u
 
 ## Deviations
 
-_None yet._
+- 2026-10-17 (clerical): filled in the registration date, which was left blank in prereg-v1. No change to the design, hypotheses or analysis.
