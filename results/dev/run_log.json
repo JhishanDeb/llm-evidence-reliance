@@ -1,0 +1,878 @@
+{
+ "protocol": {
+  "tag": "prereg-v1",
+  "url": "https://raw.githubusercontent.com/JhishanDeb/llm-evidence-reliance/prereg-v1/PREREGISTRATION.md",
+  "sha256": "8457d962d514885f76cdec09724aaa9d41c3e6e237b1c163c44f2e3e49cfc4f9",
+  "strings_missing_from_protocol": [],
+  "pilot_ids_source": "github prereg-v1 (matches built-in copy)"
+ },
+ "model_id": "Qwen/Qwen2.5-7B-Instruct",
+ "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "model_kind": "instruct",
+ "backend": {
+  "requested": "auto",
+  "vllm_dry_run_tail": "rcer-0.11.3 loguru-0.7.3 mcp-2.3.0 mcp-types-2.3.0 mistral_common-1.12.0 model-hosting-container-standards-0.1.16 msgspec-0.22.0 numba-0.65.0 nvidia-cuda-cccl-13.3.4.3.1 nvidia-cuda-crt-13.4.92 nvidia-cuda-nvcc-13.4.92 nvidia-cuda-nvdisasm-13.4.92 nvidia-cuda-nvrtc-13.4.92 nvidia-cuda-runtime-13.4.92 nvidia-cudnn-frontend-1.28.0 nvidia-cutlass-dsl-4.6.0 nvidia-cutlass-dsl-libs-base-4.6.0 nvidia-cutlass-dsl-libs-core-4.6.0 nvidia-cutlass-dsl-libs-cu12-4.6.0 nvidia-cutlass-dsl-libs-cu13-4.6.0 nvidia-nvvm-13.4.92 nvtx-0.2.15 openai-harmony-0.0.8 opentelemetry-api-1.45.1 opentelemetry-exporter-http-transport-0.66b1 opentelemetry-exporter-otlp-1.45.1 opentelemetry-exporter-otlp-common-0.66b1 opentelemetry-exporter-otlp-proto-common-1.45.1 opentelemetry-exporter-otlp-proto-grpc-1.45.1 opentelemetry-exporter-otlp-proto-http-1.45.1 opentelemetry-proto-1.45.1 opentelemetry-sdk-1.45.1 opentelemetry-semantic-conventions-0.66b1 opentelemetry-semantic-conventions-ai-0.5.1 outlines_core-0.2.14 partial-json-parser-0.2.1.1.post7 prometheus-fastapi-instrumentator-8.1.0 protobuf-6.33.6 pybase64-1.5.1 pycountry-26.2.16 pydantic-extra-types-2.11.1 pydantic-settings-2.16.0 pyelftools-0.33 pynvvideocodec-2.0.4 quack-kernels-0.6.3 rich-toolkit-0.20.6 rignore-0.8.1 setproctitle-1.3.8 setuptools-80.10.2 sse-starlette-3.5.0 supervisor-4.3.0 tilelang-0.1.9 tokenspeed-mla-0.1.8 tokenspeed-triton-3.9.10.post20261008 torch_c_dlpack_ext-0.1.5 torchcodec-0.17.0 vllm-0.26.0 xgrammar-0.2.7 z3-solver-4.15.4.0\n",
+  "vllm_wheel": "https://github.com/vllm-project/vllm/releases/download/v0.26.0/vllm-0.26.0+cu129-cp38-abi3-manylinux_2_28_x86_64.whl",
+  "vllm_install_tail": "     \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 518.9/518.9 MB 3.6 MB/s eta 0:00:00\nERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\nbigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\ngrpcio-tools 1.71.2 requires protobuf<6.0dev,>=5.26.1, but you have protobuf 6.33.6 which is incompatible.\nydata-profiling 4.18.4 requires numba<0.63,>=0.60, but you have numba 0.65.0 which is incompatible.\ncuml-cu12 26.2.0 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.0 which is incompatible.\ngoogle-ai-generativelanguage 0.6.15 requires protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.2, but you have protobuf 6.33.6 which is incompatible.\ncudf-cu12 26.2.1 requires numba<0.62.0,>=0.60.0, but you have numba 0.65.0 which is incompatible.\ngrpcio-status 1.71.2 requires protobuf<6.0dev,>=5.26.1, but you have protobuf 6.33.6 which is incompatible.\ngoogle-adk 2.7.1 requires opentelemetry-api<=1.42.1,>=1.39, but you have opentelemetry-api 1.45.1 which is incompatible.\ngoogle-adk 2.7.1 requires opentelemetry-sdk<=1.42.1,>=1.39, but you have opentelemetry-sdk 1.45.1 which is incompatible.\n",
+  "removed_broken_torchcodec": true,
+  "install": "installed vllm 0.26.0+cu129 (https://github.com/vllm-project/vllm/releases/download/v0.26.0/vllm-0.26.0+cu129-cp38-abi3-manylinux_2_28_x86_64.whl) for torch 2.11.0+cu128",
+  "numpy": {
+   "before": "2.1.3",
+   "after": "2.1.3"
+  },
+  "vllm_smoke_test": "ok",
+  "used": "vllm"
+ },
+ "backend_info": {
+  "backend": "vllm",
+  "topk": 20,
+  "variants": {
+   "Yes": [
+    [
+     9454,
+     "Yes"
+    ],
+    [
+     7414,
+     " Yes"
+    ]
+   ],
+   "No": [
+    [
+     2753,
+     "No"
+    ],
+    [
+     2308,
+     " No"
+    ]
+   ]
+  },
+  "vllm_version": "0.26.0"
+ },
+ "template_system_text": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+ "env": {
+  "python": "3.13.15",
+  "platform": "Linux-6.18.48+-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpus": [
+   "Tesla T4",
+   "Tesla T4"
+  ],
+  "nvidia_smi": "Tesla T4, 15360 MiB, 580.178.04\nTesla T4, 15360 MiB, 580.178.04"
+ },
+ "timings_seconds": {
+  "install": 160.5,
+  "data": 447.5,
+  "bundles": 19.7,
+  "model_download": 60.4,
+  "smoke_test": 215.1,
+  "model_load": 123.0,
+  "scoring": 836.3
+ },
+ "code_version": "dev-1.1",
+ "code_sha256": "d79a8ea1763b69e9f2383c83e0dc8e002d7bd06a90263f2d722d2b34a13d797f",
+ "library_versions": {
+  "numpy": "2.1.3",
+  "pandas": "2.3.3",
+  "sklearn": "1.6.1",
+  "scipy": "1.16.3",
+  "xgboost": "3.4.1"
+ },
+ "fingerprints": {
+  "physionet2012": {
+   "dev_pool": "666188bd08c26e4f",
+   "test_pool": "b4b0dcdbcac1bd57",
+   "features": "6de558459e12c44d",
+   "cards": "d15b0e6bf2a50bda",
+   "shots": "961186a3c7999705"
+  },
+  "physionet2019": {
+   "dev_pool": "93faf7b255c2c0a8",
+   "test_pool": "9630a2581cc23843",
+   "features": "40bfef7bcc1dced9",
+   "cards": "3ab29fe6e0eff7d8",
+   "shots": "db197d273ab5cb44"
+  },
+  "diabetes130": {
+   "dev_pool": "6a8ae23d135b5daa",
+   "test_pool": "bab9cbb714d08b09",
+   "features": "4f96bc315b1615f3",
+   "cards": "dd242cffc99f30ee",
+   "shots": "db9222ebf02a22d4"
+  }
+ },
+ "data": {
+  "physionet2012": {
+   "records_parsed": 8000,
+   "with_outcome": 8000,
+   "positives": 1122,
+   "licence": "Open Data Commons Attribution License v1.0",
+   "seconds": 253.6
+  },
+  "physionet2019": {
+   "files": 40336,
+   "status_excl_empty": 15,
+   "status_excl_label_le24": 1351,
+   "status_excl_short": 9017,
+   "status_neg": 28373,
+   "status_pos": 1580,
+   "included": 29953,
+   "positives": 1580,
+   "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "seconds": 190.5
+  },
+  "diabetes130": {
+   "encounters": 101766,
+   "first_encounters": 71518,
+   "excluded_death_or_hospice": 1545,
+   "included": 69973,
+   "positives": 6277,
+   "id_mapping_tables": {
+    "admission_type_id": 8,
+    "discharge_disposition_id": 30,
+    "admission_source_id": 25
+   },
+   "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "seconds": 3.4
+  }
+ },
+ "bundles": {
+  "physionet2012": {
+   "data": {
+    "records_parsed": 8000,
+    "with_outcome": 8000,
+    "positives": 1122,
+    "licence": "Open Data Commons Attribution License v1.0",
+    "seconds": 253.6
+   },
+   "split": {
+    "train": 4800,
+    "dev_pool": 773,
+    "test_pool": 2342,
+    "pilot_removed_dev": 27,
+    "pilot_removed_test": 58,
+    "train_positives": 673
+   },
+   "xgb": {
+    "auroc_dev_pool_16": 0.7981835118770378,
+    "auroc_dev_pool_all": 0.8289706567303213,
+    "scale_pos_weight": 6.132243684992571,
+    "features": [
+     "GCS_last",
+     "Urine_total",
+     "Age",
+     "BUN_last",
+     "HR_max",
+     "PaO2_max",
+     "Temp_min",
+     "GCS_max",
+     "Lactate_last",
+     "Na_last",
+     "BUN_min",
+     "GCS_min",
+     "Glucose_last",
+     "HR_last",
+     "NIDiasABP_last",
+     "Albumin_max"
+    ],
+    "mean_abs_shap": {
+     "GCS_last": 0.8024678826332092,
+     "Urine_total": 0.40556153655052185,
+     "Age": 0.35013267397880554,
+     "BUN_last": 0.32412663102149963,
+     "HR_max": 0.16640594601631165,
+     "PaO2_max": 0.1516224443912506,
+     "Temp_min": 0.13153669238090515,
+     "GCS_max": 0.12957929074764252,
+     "Lactate_last": 0.1253334879875183,
+     "Na_last": 0.11885993927717209,
+     "BUN_min": 0.11807286739349365,
+     "GCS_min": 0.11688804626464844,
+     "Glucose_last": 0.11276833713054657,
+     "HR_last": 0.11174853146076202,
+     "NIDiasABP_last": 0.10439135879278183,
+     "Albumin_max": 0.09478652477264404
+    }
+   },
+   "capacity": {
+    "dev_pool": {
+     "eligible": 758,
+     "eligible_pos": 95,
+     "eligible_neg": 663
+    },
+    "test_pool": {
+     "eligible": 2299,
+     "eligible_pos": 302,
+     "eligible_neg": 1997
+    },
+    "test_per_class_planned": 300,
+    "test_fallback_rule_applies": false
+   },
+   "dev_sample": {
+    "per_class": 50,
+    "n": 100
+   },
+   "cards": {
+    "card_points_alarm_share": 0.4,
+    "card_agrees_with_xgb_label": 0.97,
+    "partners_missing": 0
+   },
+   "fingerprint": {
+    "dev_pool": "666188bd08c26e4f",
+    "test_pool": "b4b0dcdbcac1bd57",
+    "features": "6de558459e12c44d",
+    "cards": "d15b0e6bf2a50bda",
+    "shots": "961186a3c7999705"
+   }
+  },
+  "physionet2019": {
+   "data": {
+    "files": 40336,
+    "status_excl_empty": 15,
+    "status_excl_label_le24": 1351,
+    "status_excl_short": 9017,
+    "status_neg": 28373,
+    "status_pos": 1580,
+    "included": 29953,
+    "positives": 1580,
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "seconds": 190.5
+   },
+   "split": {
+    "train": 17971,
+    "dev_pool": 2995,
+    "test_pool": 8987,
+    "pilot_removed_dev": 0,
+    "pilot_removed_test": 0,
+    "train_positives": 948
+   },
+   "xgb": {
+    "auroc_dev_pool_16": 0.7303868857725445,
+    "auroc_dev_pool_all": 0.729456593031505,
+    "scale_pos_weight": 17.956751054852322,
+    "features": [
+     "HospAdmTime",
+     "FiO2_last",
+     "Resp_min",
+     "DBP_last",
+     "FiO2_max",
+     "Creatinine_last",
+     "SBP_max",
+     "Temp_max",
+     "O2Sat_last",
+     "Lactate_max",
+     "Potassium_max",
+     "Bilirubin_total_min",
+     "HR_min",
+     "Age",
+     "Potassium_min",
+     "DBP_max"
+    ],
+    "mean_abs_shap": {
+     "HospAdmTime": 0.27844762802124023,
+     "FiO2_last": 0.2531707286834717,
+     "Resp_min": 0.14611613750457764,
+     "DBP_last": 0.13710160553455353,
+     "FiO2_max": 0.10905425250530243,
+     "Creatinine_last": 0.10151692479848862,
+     "SBP_max": 0.08694697171449661,
+     "Temp_max": 0.07601537555456161,
+     "O2Sat_last": 0.07443878799676895,
+     "Lactate_max": 0.0741671472787857,
+     "Potassium_max": 0.07249998301267624,
+     "Bilirubin_total_min": 0.06764694303274155,
+     "HR_min": 0.06511787325143814,
+     "Age": 0.06483469158411026,
+     "Potassium_min": 0.0644415020942688,
+     "DBP_max": 0.05880558490753174
+    }
+   },
+   "capacity": {
+    "dev_pool": {
+     "eligible": 2833,
+     "eligible_pos": 155,
+     "eligible_neg": 2678
+    },
+    "test_pool": {
+     "eligible": 8527,
+     "eligible_pos": 466,
+     "eligible_neg": 8061
+    },
+    "test_per_class_planned": 300,
+    "test_fallback_rule_applies": false
+   },
+   "dev_sample": {
+    "per_class": 50,
+    "n": 100
+   },
+   "cards": {
+    "card_points_alarm_share": 0.32,
+    "card_agrees_with_xgb_label": 0.83,
+    "partners_missing": 0
+   },
+   "fingerprint": {
+    "dev_pool": "93faf7b255c2c0a8",
+    "test_pool": "9630a2581cc23843",
+    "features": "40bfef7bcc1dced9",
+    "cards": "3ab29fe6e0eff7d8",
+    "shots": "db197d273ab5cb44"
+   }
+  },
+  "diabetes130": {
+   "data": {
+    "encounters": 101766,
+    "first_encounters": 71518,
+    "excluded_death_or_hospice": 1545,
+    "included": 69973,
+    "positives": 6277,
+    "id_mapping_tables": {
+     "admission_type_id": 8,
+     "discharge_disposition_id": 30,
+     "admission_source_id": 25
+    },
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "seconds": 3.4
+   },
+   "split": {
+    "train": 41983,
+    "dev_pool": 6997,
+    "test_pool": 20993,
+    "pilot_removed_dev": 0,
+    "pilot_removed_test": 0,
+    "train_positives": 3766
+   },
+   "xgb": {
+    "auroc_dev_pool_16": 0.5966963536556948,
+    "auroc_dev_pool_all": 0.5944460778872184,
+    "scale_pos_weight": 10.147902283590016,
+    "features": [
+     "diag_1",
+     "diag_2",
+     "diag_3",
+     "discharge_disposition_id",
+     "number_inpatient",
+     "medical_specialty",
+     "payer_code",
+     "time_in_hospital",
+     "age",
+     "diabetesMed",
+     "number_diagnoses",
+     "num_medications",
+     "admission_source_id",
+     "race",
+     "num_lab_procedures",
+     "num_procedures"
+    ],
+    "mean_abs_shap": {
+     "diag_1": 0.4121181070804596,
+     "diag_2": 0.3418041169643402,
+     "diag_3": 0.32714369893074036,
+     "discharge_disposition_id": 0.18704168498516083,
+     "number_inpatient": 0.08493787795305252,
+     "medical_specialty": 0.044030897319316864,
+     "payer_code": 0.04218253493309021,
+     "time_in_hospital": 0.033450204879045486,
+     "age": 0.031017405912280083,
+     "diabetesMed": 0.02008339762687683,
+     "number_diagnoses": 0.01727750338613987,
+     "num_medications": 0.009542549028992653,
+     "admission_source_id": 0.006005488336086273,
+     "race": 0.003065213793888688,
+     "num_lab_procedures": 0.0027475771494209766,
+     "num_procedures": 0.0027465776074677706
+    }
+   },
+   "capacity": {
+    "dev_pool": {
+     "eligible": 6997,
+     "eligible_pos": 628,
+     "eligible_neg": 6369
+    },
+    "test_pool": {
+     "eligible": 20993,
+     "eligible_pos": 1883,
+     "eligible_neg": 19110
+    },
+    "test_per_class_planned": 300,
+    "test_fallback_rule_applies": false
+   },
+   "dev_sample": {
+    "per_class": 50,
+    "n": 100
+   },
+   "cards": {
+    "card_points_alarm_share": 0.23,
+    "card_agrees_with_xgb_label": 0.91,
+    "partners_missing": 0
+   },
+   "fingerprint": {
+    "dev_pool": "6a8ae23d135b5daa",
+    "test_pool": "bab9cbb714d08b09",
+    "features": "4f96bc315b1615f3",
+    "cards": "dd242cffc99f30ee",
+    "shots": "db9222ebf02a22d4"
+   }
+  }
+ },
+ "checks": {
+  "prompts": {
+   "prompts_checked": 4200
+  },
+  "validity": [
+   {
+    "dataset": "physionet2012",
+    "n_prompts": 1400,
+    "yn_mass_median_alarm_A": 0.998670151182073,
+    "yn_mass_min": 0.7733012580996217,
+    "n_yn_mass_below_0.01": 0,
+    "n_invalid_zero_mass": 0,
+    "C0_accuracy": 0.71,
+    "C0_share_alarm": 0.29,
+    "valid_yn_mass": true,
+    "valid_C0_acc": true,
+    "tokens_median": 1646,
+    "tokens_max": 1672
+   },
+   {
+    "dataset": "physionet2019",
+    "n_prompts": 1400,
+    "yn_mass_median_alarm_A": 0.9924143345128777,
+    "yn_mass_min": 0.6276740866420804,
+    "n_yn_mass_below_0.01": 0,
+    "n_invalid_zero_mass": 0,
+    "C0_accuracy": 0.66,
+    "C0_share_alarm": 0.5,
+    "valid_yn_mass": true,
+    "valid_C0_acc": true,
+    "tokens_median": 2195,
+    "tokens_max": 2238
+   },
+   {
+    "dataset": "diabetes130",
+    "n_prompts": 1400,
+    "yn_mass_median_alarm_A": 0.9928255403824547,
+    "yn_mass_min": 0.5704611088719536,
+    "n_yn_mass_below_0.01": 0,
+    "n_invalid_zero_mass": 0,
+    "C0_accuracy": 0.54,
+    "C0_share_alarm": 0.24,
+    "valid_yn_mass": true,
+    "valid_C0_acc": false,
+    "tokens_median": 1232,
+    "tokens_max": 1260
+   }
+  ]
+ },
+ "projection": {
+  "seconds_per_prompt": 0.19911740166800362,
+  "backend": "vllm",
+  "rows": [
+   {
+    "setting": "planned (300 per class, or fallback)",
+    "patients": {
+     "physionet2012": 600,
+     "physionet2019": 600,
+     "diabetes130": 600
+    },
+    "prompts_per_model": 25200,
+    "session_overhead_hours": 0.29,
+    "hours_per_model": 1.68,
+    "hours_4_models": 6.72,
+    "within_budget": true,
+    "fits_one_12h_session": true
+   },
+   {
+    "setting": "compute fallback (200 per class)",
+    "patients": {
+     "physionet2012": 400,
+     "physionet2019": 400,
+     "diabetes130": 400
+    },
+    "prompts_per_model": 16800,
+    "session_overhead_hours": 0.29,
+    "hours_per_model": 1.21,
+    "hours_4_models": 4.86,
+    "within_budget": true,
+    "fits_one_12h_session": true
+   }
+  ],
+  "note": "Measured on Qwen2.5-7B-Instruct; Llama-3.1-8B will be somewhat slower. Each model is assumed to run in its own Kaggle session, so install, data, XGBoost and model loading are counted once per model. The tabmemcheck memorization tests (protocol Section 3) are not included."
+ },
+ "to_log_before_main_run": [
+  "Eligibility operationalised as at least 10 of 16 selected features measured (>= 60%); the pilot code used int(0.6 x 16) = 9.",
+  "Diabetes 130: the first encounter per patient is taken first, then excluded if it ended in death or hospice (so such patients are dropped, not replaced by a later encounter).",
+  "Validity check: median Yes+No mass over all conditions under the alarm framing with example set A; C0 accuracy under the alarm framing with example set A.",
+  "Solved examples: drawn at random from all training-split patients with the registered seeds, shown in the order alarming, safe, alarming, safe.",
+  "A prompt with no probability on any Yes/No token (Yes+No mass = 0) is counted and left out of the analysis; it is not read as 'No'.",
+  "The Qwen/Qwen2.5-7B-Instruct chat template adds its own default system text when no system message is given: 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.'. It is used as is (no system message is passed).",
+  "diabetes130: dev validity warning (median Yes+No mass 0.99, C0 accuracy 0.54); look at this before the main run."
+ ],
+ "exploratory_dev_results": {
+  "physionet2012": {
+   "n_records": 1400,
+   "n_invalid": 0,
+   "by_condition": {
+    "C0": {
+     "n": 100,
+     "accuracy": 0.71,
+     "wilson": [
+      0.6146110882442888,
+      0.7898516425087772
+     ],
+     "auroc": 0.8488
+    },
+    "C2": {
+     "n": 100,
+     "accuracy": 0.71,
+     "wilson": [
+      0.6146110882442888,
+      0.7898516425087772
+     ],
+     "auroc": 0.8456
+    },
+    "C4": {
+     "n": 100,
+     "accuracy": 0.6,
+     "wilson": [
+      0.5020025867910618,
+      0.6905987135675411
+     ],
+     "auroc": 0.8
+    },
+    "C6": {
+     "n": 100,
+     "accuracy": 0.62,
+     "wilson": [
+      0.5220975529551107,
+      0.7090240074752127
+     ],
+     "auroc": 0.7055999999999999
+    }
+   },
+   "H1": {
+    "acc_a": 0.71,
+    "acc_b": 0.71,
+    "diff": 0.0,
+    "a_only_correct": 4,
+    "b_only_correct": 4,
+    "p": 1.0,
+    "p_holm": 1.0,
+    "supported": false
+   },
+   "H2": {
+    "acc_a": 0.6,
+    "acc_b": 0.71,
+    "diff": -0.10999999999999999,
+    "a_only_correct": 2,
+    "b_only_correct": 13,
+    "p": 0.00738525390625,
+    "p_holm": 0.02215576171875,
+    "supported": true
+   },
+   "H3": {
+    "n": 100,
+    "A": 0.07042253521126761,
+    "S": 0.5517241379310345,
+    "delta": -0.48130160271976685,
+    "delta_ci": [
+     -0.6751195480019493,
+     -0.28817858954845255
+    ],
+    "p_boot": 0.0,
+    "logodds_asym": -0.4289297218232275,
+    "logodds_asym_ci": [
+     -1.7387152507791537,
+     0.8896399530221971
+    ],
+    "follow_alarm_card": 0.32,
+    "follow_safe_card": 0.87,
+    "flip_rate_C2_C4": 0.19,
+    "p_holm": 0.0,
+    "supported": false
+   },
+   "Q3_reversed": {
+    "n": 100,
+    "A": 0.06153846153846154,
+    "S": 0.4857142857142857,
+    "delta": -0.42417582417582417,
+    "delta_ci": [
+     -0.6016830294530154,
+     -0.24421594457455117
+    ],
+    "p_boot": 0.0,
+    "logodds_asym": -4.045398027973063,
+    "logodds_asym_ci": [
+     -5.748544327147438,
+     -2.3861348871223718
+    ],
+    "follow_alarm_card": 0.33,
+    "follow_safe_card": 0.8,
+    "flip_rate_C2_C4": 0.21
+   },
+   "Q3_interpretation": "follows the answer word 'Yes'",
+   "H5": {
+    "n": 100,
+    "overtrust": -0.2329261651078567,
+    "ci": [
+     -0.4534196921801346,
+     -0.03212641151380266
+    ],
+    "acc_C4": 0.6,
+    "mean_predicted_C4": 0.3670738348921433
+   },
+   "H6": {
+    "n": 100,
+    "auroc_with_flag": 0.5091145833333334,
+    "auroc_without_flag": 0.48567708333333337,
+    "diff": 0.0234375,
+    "p_delong": 0.7470649666992091,
+    "share_flagged": 0.19
+   }
+  },
+  "physionet2019": {
+   "n_records": 1400,
+   "n_invalid": 0,
+   "by_condition": {
+    "C0": {
+     "n": 100,
+     "accuracy": 0.66,
+     "wilson": [
+      0.5627772885472462,
+      0.7453847920265184
+     ],
+     "auroc": 0.6804
+    },
+    "C2": {
+     "n": 100,
+     "accuracy": 0.68,
+     "wilson": [
+      0.5833738138954762,
+      0.7633085267500092
+     ],
+     "auroc": 0.7044
+    },
+    "C4": {
+     "n": 100,
+     "accuracy": 0.59,
+     "wilson": [
+      0.4920143005341078,
+      0.6813268697886348
+     ],
+     "auroc": 0.5324
+    },
+    "C6": {
+     "n": 100,
+     "accuracy": 0.6,
+     "wilson": [
+      0.5020025867910618,
+      0.6905987135675411
+     ],
+     "auroc": 0.6980000000000001
+    }
+   },
+   "H1": {
+    "acc_a": 0.68,
+    "acc_b": 0.66,
+    "diff": 0.020000000000000018,
+    "a_only_correct": 7,
+    "b_only_correct": 5,
+    "p": 0.7744140625,
+    "p_holm": 1.0,
+    "supported": false
+   },
+   "H2": {
+    "acc_a": 0.59,
+    "acc_b": 0.66,
+    "diff": -0.07000000000000006,
+    "a_only_correct": 12,
+    "b_only_correct": 19,
+    "p": 0.28104151505976915,
+    "p_holm": 0.5620830301195383,
+    "supported": false
+   },
+   "H3": {
+    "n": 100,
+    "A": 0.46,
+    "S": 0.36,
+    "delta": 0.10000000000000003,
+    "delta_ci": [
+     -0.09878622288458351,
+     0.28846153846153844
+    ],
+    "p_boot": 0.3262,
+    "logodds_asym": -2.313882790984252,
+    "logodds_asym_ci": [
+     -4.102864823471633,
+     -0.5365149243195207
+    ],
+    "follow_alarm_card": 0.71,
+    "follow_safe_card": 0.68,
+    "flip_rate_C2_C4": 0.43,
+    "p_holm": 0.3262,
+    "supported": false
+   },
+   "Q3_reversed": {
+    "n": 100,
+    "A": 0.7567567567567568,
+    "S": 0.20634920634920634,
+    "delta": 0.5504075504075505,
+    "delta_ci": [
+     0.375,
+     0.7135416666666666
+    ],
+    "p_boot": 0.0,
+    "logodds_asym": -0.4929035580714176,
+    "logodds_asym_ci": [
+     -2.045498395830411,
+     1.0618835849880788
+    ],
+    "follow_alarm_card": 0.91,
+    "follow_safe_card": 0.44,
+    "flip_rate_C2_C4": 0.39
+   },
+   "Q3_interpretation": "follows the outcome (alarm aversion)",
+   "H5": {
+    "n": 100,
+    "overtrust": 0.0606819961737084,
+    "ci": [
+     -0.08687403273767658,
+     0.20459786753429152
+    ],
+    "acc_C4": 0.59,
+    "mean_predicted_C4": 0.6506819961737084
+   },
+   "H6": {
+    "n": 100,
+    "auroc_with_flag": 0.6344349245206039,
+    "auroc_without_flag": 0.5569155446756425,
+    "diff": 0.07751937984496138,
+    "p_delong": 0.1047787331648786,
+    "share_flagged": 0.43
+   }
+  },
+  "diabetes130": {
+   "n_records": 1400,
+   "n_invalid": 0,
+   "by_condition": {
+    "C0": {
+     "n": 100,
+     "accuracy": 0.54,
+     "wilson": [
+      0.44264860323368227,
+      0.6343919169097589
+     ],
+     "auroc": 0.5818
+    },
+    "C2": {
+     "n": 100,
+     "accuracy": 0.59,
+     "wilson": [
+      0.4920143005341078,
+      0.6813268697886348
+     ],
+     "auroc": 0.6784
+    },
+    "C4": {
+     "n": 100,
+     "accuracy": 0.48,
+     "wilson": [
+      0.384645517580519,
+      0.5768342223477603
+     ],
+     "auroc": 0.476
+    },
+    "C6": {
+     "n": 100,
+     "accuracy": 0.54,
+     "wilson": [
+      0.44264860323368227,
+      0.6343919169097589
+     ],
+     "auroc": 0.6200000000000001
+    }
+   },
+   "H1": {
+    "acc_a": 0.59,
+    "acc_b": 0.54,
+    "diff": 0.04999999999999993,
+    "a_only_correct": 11,
+    "b_only_correct": 6,
+    "p": 0.332305908203125,
+    "p_holm": 0.996917724609375,
+    "supported": false
+   },
+   "H2": {
+    "acc_a": 0.48,
+    "acc_b": 0.54,
+    "diff": -0.06000000000000005,
+    "a_only_correct": 24,
+    "b_only_correct": 30,
+    "p": 0.49661743531793345,
+    "p_holm": 0.5620830301195383,
+    "supported": false
+   },
+   "H3": {
+    "n": 100,
+    "A": 0.6447368421052632,
+    "S": 0.8333333333333334,
+    "delta": -0.1885964912280702,
+    "delta_ci": [
+     -0.36759461178501657,
+     0.0
+    ],
+    "p_boot": 0.0516,
+    "logodds_asym": 0.03139371780315514,
+    "logodds_asym_ci": [
+     -1.291814363516001,
+     1.4108048194511575
+    ],
+    "follow_alarm_card": 0.72,
+    "follow_safe_card": 0.95,
+    "flip_rate_C2_C4": 0.69,
+    "p_holm": 0.1032,
+    "supported": false
+   },
+   "Q3_reversed": {
+    "n": 100,
+    "A": 0.8333333333333334,
+    "S": 0.40789473684210525,
+    "delta": 0.4254385964912281,
+    "delta_ci": [
+     0.2328482328482328,
+     0.6017009369301388
+    ],
+    "p_boot": 0.0006,
+    "logodds_asym": -4.493215551743333,
+    "logodds_asym_ci": [
+     -5.391936181661205,
+     -3.590521252488988
+    ],
+    "follow_alarm_card": 0.94,
+    "follow_safe_card": 0.55,
+    "flip_rate_C2_C4": 0.51
+   },
+   "Q3_interpretation": "follows the outcome (alarm aversion)",
+   "H5": {
+    "n": 100,
+    "overtrust": 0.11641340581561266,
+    "ci": [
+     -0.0641451081369222,
+     0.30391875130663437
+    ],
+    "acc_C4": 0.48,
+    "mean_predicted_C4": 0.5964134058156126
+   },
+   "H6": {
+    "n": 100,
+    "auroc_with_flag": 0.47717171717171714,
+    "auroc_without_flag": 0.46989898989899004,
+    "diff": 0.0072727272727270975,
+    "p_delong": 0.8235305974469596,
+    "share_flagged": 0.69
+   }
+  }
+ },
+ "n_records": 4200
+}
