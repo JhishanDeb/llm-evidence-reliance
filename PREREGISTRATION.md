@@ -262,3 +262,14 @@ These describe how the code implements points that Sections 3 to 7 leave open. T
 #### D4. Sample size (Section 8, step 3)
 
 The dev projection was 1.68 GPU hours per model (6.7 hours for the four models), and each test pool has at least 300 eligible positives (302, 466 and 1,883). The test set is therefore 600 patients per dataset (300 per class) for all three datasets. The compute fallback is not used.
+
+### 2026-10-20: reading mode for all four runs (tag `prereg-v1.3`)
+
+#### D5. The same reading for every model
+
+- The first main run (Qwen2.5-7B-Instruct, 2026-10-20) failed the exactness check of D2 by a small margin. Across 153 comparisons on the 55 smoke-test prompts, the largest difference between the `logprob_token_ids` values and the ordinary top-20 values was 0.062, against a tolerance of 0.05. A difference of this size is consistent with float16 rounding between two separate passes of the model. As D2 specifies, that run read the top 1,000 log-probabilities.
+- In that run, every record had at least one variant of each word ("Yes", " Yes"; "No", " No") inside the top 1,000. In 10.1% of the records, one variant was outside the top 1,000 and was given the log-probability of the 1,000th token. Because the other variant of the same word was read exactly, this can raise that word's probability by at most a factor of 2, which changes the log-odds by at most 0.69.
+- So that all four models are read in the same way, the other three runs also read the top 1,000 log-probabilities. The exactness check still runs in every session, and its result is reported. Nothing else changes.
+- Labelled sensitivity analysis (reported, not used for decisions): in every record with an imputed variant, the probability of the less likely word is halved, which bounds the effect of the imputation, and a and a′ are recomputed.
+- Before writing this entry, I looked only at the engineering and validity checks of the first run (completeness, reading mode, run time, the memorization check and the validity checks of Section 5), not at any hypothesis test or asymmetry statistic.
+- Timing: I wrote this entry on 2026-10-20, after the first run and before the second run (Qwen2.5-7B, base) started, and the second run already read the top 1,000 log-probabilities as described here. By mistake, I created the release `prereg-v1.2` before uploading this entry, so `prereg-v1.2` points to the same commit as `prereg-v1.1`, and this entry was committed only after the second run had finished. The commit that contains this entry is tagged `prereg-v1.3`.
