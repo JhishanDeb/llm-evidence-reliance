@@ -161,4 +161,11 @@ Values in parentheses are for a format the model is not run with. The exact-read
 
 ## Deviations
 
-None yet.
+### 2026-10-22: after the first run (Olmo-3-7B-Instruct), before any hypothesis test
+
+#### V2-D1. The validity rule applied to the two controls
+
+- In the run of Olmo-3-7B-Instruct, the base-format control (the model prompted as plain text, Section 7) gave a median Yes+No mass of 0.015 to 0.018 in the three datasets (largest single value 0.041), against at least 0.99 for every prompt in the model's chat format. As plain text, the model puts almost no probability on "Yes" or "No" after "Answer:", so its log-odds rest on a very small share of its output.
+- Section 3 keeps the first study's validity rule, but Section 7 did not say how it applies to the controls. Clarification: each control cell is subject to the same mass criterion (median answer-word mass of at least 0.5 over the control's records of that model and dataset). A control cell that fails it is reported with its numbers but described as not interpretable.
+- By this rule, the base-format control is not interpretable in any dataset. Post-training and prompt format therefore cannot be separated in this study, and R3 is reported as comparing the two together, as Section 6 already states. No confirmatory test, decision rule or prompt changes. The example-order control of this run meets the criterion (median mass at least 0.996 in every dataset).
+- Before writing this entry, I looked only at the engineering and validity checks of this run (completeness, revision, reading mode, answer-word mass, imputation, the memorization check and the validity checks), not at any hypothesis test or asymmetry statistic.
