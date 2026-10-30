@@ -16,4 +16,4 @@ This work is pre-registered in three studies. The first study's protocol is in P
 - `results/dev/`: output of the dev phase, used only for engineering checks.
 - `results/main/`: raw outputs of the first study's four main runs and its registered analysis (`report.md`).
 - `results/v2/`: outputs of the second study: the engineering check before registration, the eight runs and the registered analysis.
-- `results/v3/`: outputs of the third study (the engineering check before registration; the runs and the analysis are added later).
+- `results/v3/`: outputs of the third study: the engineering check before registration, the six runs, the registered analysis and the imputation-bound supplement (Deviation V3-D1).

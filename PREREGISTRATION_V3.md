@@ -200,4 +200,11 @@ The full output is committed as `results/v3/engcheck_v3.zip` (SHA-256 6984a4d968
 
 ## Deviations
 
-None so far.
+### 2026-10-30: after the registered analysis
+
+#### V3-D1. The imputation bound of Deviation D5 is computed by a separate script
+
+- Section 10 says that the imputation bound of Deviation D5 is reported for every cell with imputed readings. The registered analysis notebook does not compute it. I noticed this only after the registered analysis had been run and its results were known.
+- The bound is computed by `results/v3/supplement_d5.py`, with the method of the second study's analysis notebook: in every record with an imputed variant, the probability of the less likely answer word is halved, and the statistics are recomputed (2,000 resamples, as in the second study). The script uses the registered code at the tag (`ler_main.py` main-2.0, `ler_v3.py` v3-1.1). Its output is `results/v3/supplement_d5.json`. It is a labelled sensitivity analysis and decides nothing.
+- Records with an imputed variant: Falcon3-7B-Instruct 2%, Olmo-3-7B-Instruct 0.2%, Qwen2.5-7B-Instruct 11%, Phi-4-mini-instruct 52%; none for Llama-3.1-8B-Instruct and Yi-1.5-9B-Chat-16K. Under the bound, O and W change by at most 0.03 for Falcon3 and Olmo 3 and by at most 0.20 for Qwen2.5, with every card. For Phi-4-mini they change by up to 0.86 on PhysioNet 2012 and 2019 and up to 2.15 on Diabetes 130; the largest changes are in the statistic a. Under the bound, three conclusive readings of Phi-4-mini are no longer conclusive: its W with the registered card on PhysioNet 2019 (bounded p = 0.149), its O with the cue on PhysioNet 2012, and its O with the matched card on PhysioNet 2019. No registered decision would change if the bounded readings were used: R4 and R5 stay not supported; in R6, every card still keeps W in more than half of the eligible cells when the Phi-4-mini cell on PhysioNet 2019 is left out; and no count of R7 changes.
+- I wrote this entry on 2026-10-30, after the registered analysis had been run and its results were known.

@@ -1,0 +1,1478 @@
+{
+ "falcon3-7b|physionet2012": {
+  "share_imputed": 0.025897435897435896,
+  "formats": {
+   "full": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 0.46758014396979575,
+     "bounded_a_prime": 0.15958482506689986,
+     "bounded_p": 0.063,
+     "bounded_sign": 1,
+     "registered_a": 0.46758014396979575,
+     "registered_a_prime": 0.15958482506689986,
+     "registered_sign": 1,
+     "registered_p": 0.053
+    },
+    "W": {
+     "bounded_a": 0.6559471542110116,
+     "bounded_a_prime": 0.6248587210432661,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.6559471542110116,
+     "registered_a_prime": 0.6248587210432661,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 0.154164011051748,
+     "bounded_a_prime": -0.12879032320551245,
+     "bounded_p": 0.238,
+     "bounded_sign": 0,
+     "registered_a": 0.154164011051748,
+     "registered_a_prime": -0.12879032320551245,
+     "registered_sign": 0,
+     "registered_p": 0.2416
+    },
+    "W": {
+     "bounded_a": 0.48168062353718955,
+     "bounded_a_prime": 0.43657702772272866,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.48168062353718955,
+     "registered_a_prime": 0.43657702772272866,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 0.795522570365598,
+     "bounded_a_prime": 0.3571430723039204,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.795522570365598,
+     "registered_a_prime": 0.3571430723039204,
+     "registered_sign": 1,
+     "registered_p": 0.0002
+    },
+    "W": {
+     "bounded_a": 0.4782655373288539,
+     "bounded_a_prime": 0.45742531981098655,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.4782655373288539,
+     "registered_a_prime": 0.45742531981098655,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": -1.0319755163384594,
+     "bounded_a_prime": -1.262134750825715,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.0319755163384594,
+     "registered_a_prime": -1.262134750825715,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -0.6335338065762971,
+     "bounded_a_prime": -0.589701062273221,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -0.6335338065762971,
+     "registered_a_prime": -0.589701062273221,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 0.8277986322237045,
+     "bounded_a_prime": 0.4349642546734319,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.8277986322237045,
+     "registered_a_prime": 0.4349642546734319,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 0.2957286659571028,
+     "bounded_a_prime": 0.34947929143673406,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.2957286659571028,
+     "registered_a_prime": 0.34947929143673406,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   }
+  },
+  "answer_options": {
+   "bounded_a": -0.6439630273257388,
+   "bounded_a_prime": -0.8376896444901324,
+   "registered_a": -0.6292663187085068,
+   "registered_a_prime": -0.8417119887805908
+  }
+ },
+ "falcon3-7b|physionet2019": {
+  "share_imputed": 0.00858974358974359,
+  "formats": {
+   "full": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 1.6704702039026091,
+     "bounded_a_prime": 1.4244639202049774,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.6704702039026091,
+     "registered_a_prime": 1.4244639202049774,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 1.412782972905054,
+     "bounded_a_prime": 1.2958768357084263,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.412782972905054,
+     "registered_a_prime": 1.2958768357084263,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 1.4003840288295772,
+     "bounded_a_prime": 1.159075244897116,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.4003840288295772,
+     "registered_a_prime": 1.159075244897116,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 1.2656902365273162,
+     "bounded_a_prime": 1.167575095262023,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.2656902365273162,
+     "registered_a_prime": 1.167575095262023,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 1.7465506683358984,
+     "bounded_a_prime": 1.6146793734891232,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.7465506683358984,
+     "registered_a_prime": 1.6146793734891232,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 0.5118409815823097,
+     "bounded_a_prime": 0.4685639220712796,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.5118409815823097,
+     "registered_a_prime": 0.4685639220712796,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 0.4604399222983385,
+     "bounded_a_prime": 0.32468317094914767,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.4604399222983385,
+     "registered_a_prime": 0.32468317094914767,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -1.83627405910089,
+     "bounded_a_prime": -1.9277051223608042,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.83627405910089,
+     "registered_a_prime": -1.9277051223608042,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 2.5714577676681696,
+     "bounded_a_prime": 2.3409207816242015,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 2.5714577676681696,
+     "registered_a_prime": 2.3409207816242015,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 0.5117954091394934,
+     "bounded_a_prime": 0.37941997428920193,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.5117954091394934,
+     "registered_a_prime": 0.37941997428920193,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   }
+  },
+  "answer_options": {
+   "bounded_a": 1.1661838835018368,
+   "bounded_a_prime": 0.8807812516431729,
+   "registered_a": 1.1887485259159274,
+   "registered_a_prime": 0.9027162421155075
+  }
+ },
+ "falcon3-7b|diabetes130": {
+  "share_imputed": 0.028076923076923076,
+  "formats": {
+   "full": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 1.7887024045596829,
+     "bounded_a_prime": 2.0781682190788335,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.7887024045596829,
+     "registered_a_prime": 2.0781682190788335,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 1.0703637687748855,
+     "bounded_a_prime": 1.0774744782258847,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.0703637687748855,
+     "registered_a_prime": 1.0774744782258847,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 2.4915082427930395,
+     "bounded_a_prime": 2.910701415273437,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 2.4915082427930395,
+     "registered_a_prime": 2.910701415273437,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 1.0419372877415212,
+     "bounded_a_prime": 1.1481346838713473,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.0419372877415212,
+     "registered_a_prime": 1.1481346838713473,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 1.9010900729185818,
+     "bounded_a_prime": 1.9621928063685061,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.9010900729185818,
+     "registered_a_prime": 1.9621928063685061,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 0.4050228246022126,
+     "bounded_a_prime": 0.3673766522918407,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.4050228246022126,
+     "registered_a_prime": 0.3673766522918407,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 0.3593799580892343,
+     "bounded_a_prime": 0.584325851881727,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.3593799580892343,
+     "registered_a_prime": 0.584325851881727,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -2.058368869781305,
+     "bounded_a_prime": -2.136279951890888,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.058368869781305,
+     "registered_a_prime": -2.136279951890888,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 2.1884570062374977,
+     "bounded_a_prime": 2.4574139860537456,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 2.1884570062374977,
+     "registered_a_prime": 2.4574139860537456,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 0.6706091670970705,
+     "bounded_a_prime": 0.6982287112509727,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 0.6706091670970705,
+     "registered_a_prime": 0.6982287112509727,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   }
+  },
+  "answer_options": {
+   "bounded_a": -0.3322309883302271,
+   "bounded_a_prime": -0.11702489154459564,
+   "registered_a": -0.23491847097601015,
+   "registered_a_prime": -0.07708804152781784
+  }
+ },
+ "olmo3-instruct|physionet2012": {
+  "share_imputed": 0.005833333333333334,
+  "formats": {
+   "full": {
+    "share_imputed": 0.016944444444444446,
+    "O": {
+     "bounded_a": 2.3591649362120575,
+     "bounded_a_prime": 1.4573533597063981,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 2.3351051375160847,
+     "registered_a_prime": 1.4624052181854454,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -0.8013970423975342,
+     "bounded_a_prime": -1.5696599501082222,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -0.8254568410935068,
+     "registered_a_prime": -1.564608091629175,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.010833333333333334,
+    "O": {
+     "bounded_a": 2.457048728514276,
+     "bounded_a_prime": 1.5906853772519267,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 2.433681860790087,
+     "registered_a_prime": 1.5973453757321308,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -0.834519929001152,
+     "bounded_a_prime": -1.4933651242519934,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -0.8592486989976036,
+     "registered_a_prime": -1.4891272028384293,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.010166666666666666,
+    "O": {
+     "bounded_a": 1.999740701811965,
+     "bounded_a_prime": 1.0889014438205813,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.9727742629027314,
+     "registered_a_prime": 1.0935332301569152,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -0.3660152809083832,
+     "bounded_a_prime": -1.149944407337587,
+     "bounded_p": 0.013,
+     "bounded_sign": -1,
+     "registered_a": -0.39298171981761687,
+     "registered_a_prime": -1.1453126210012532,
+     "registered_sign": -1,
+     "registered_p": 0.0072
+    }
+   },
+   "cue": {
+    "share_imputed": 0.010833333333333334,
+    "O": {
+     "bounded_a": 1.2823177005265411,
+     "bounded_a_prime": 0.7036126508367163,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.2549178940398802,
+     "registered_a_prime": 0.7103270648790336,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -0.5071995386216968,
+     "bounded_a_prime": -0.9742113219149037,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -0.5373963599995769,
+     "registered_a_prime": -0.9724054414793757,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.012916666666666667,
+    "O": {
+     "bounded_a": 1.877425074537138,
+     "bounded_a_prime": 0.9892533736606067,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.8537125373776564,
+     "registered_a_prime": 0.9950636450361878,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -0.31965718072261484,
+     "bounded_a_prime": -1.1015599640624307,
+     "bounded_p": 0.04,
+     "bounded_sign": -1,
+     "registered_a": -0.3440642409550785,
+     "registered_a_prime": -1.0972665184799173,
+     "registered_sign": -1,
+     "registered_p": 0.0252
+    }
+   }
+  }
+ },
+ "olmo3-instruct|physionet2019": {
+  "share_imputed": 0.0,
+  "formats": {
+   "full": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": -0.2455291907895898,
+     "bounded_a_prime": 0.015598889857728615,
+     "bounded_p": 0.813,
+     "bounded_sign": 0,
+     "registered_a": -0.2455291907895898,
+     "registered_a_prime": 0.015598889857728615,
+     "registered_sign": 0,
+     "registered_p": 0.8
+    },
+    "W": {
+     "bounded_a": -1.6274940892706824,
+     "bounded_a_prime": -1.3424156765333892,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.6274940892706824,
+     "registered_a_prime": -1.3424156765333892,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": -0.7291638357848325,
+     "bounded_a_prime": -0.21579189250370945,
+     "bounded_p": 0.022,
+     "bounded_sign": -1,
+     "registered_a": -0.7291638357848325,
+     "registered_a_prime": -0.21579189250370945,
+     "registered_sign": -1,
+     "registered_p": 0.0252
+    },
+    "W": {
+     "bounded_a": -0.976308868128752,
+     "bounded_a_prime": -0.9842161413213844,
+     "bounded_p": 0.007,
+     "bounded_sign": -1,
+     "registered_a": -0.976308868128752,
+     "registered_a_prime": -0.9842161413213844,
+     "registered_sign": -1,
+     "registered_p": 0.0056
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 1.1445847708472305,
+     "bounded_a_prime": 1.1285400559147736,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.1445847708472305,
+     "registered_a_prime": 1.1285400559147736,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -1.601626340341487,
+     "bounded_a_prime": -1.1919923830632648,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.601626340341487,
+     "registered_a_prime": -1.1919923830632648,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 2.076886373214864,
+     "bounded_a_prime": 1.929727094678406,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 2.076886373214864,
+     "registered_a_prime": 1.929727094678406,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -2.0109555759929703,
+     "bounded_a_prime": -1.633998919130167,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.0109555759929703,
+     "registered_a_prime": -1.633998919130167,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": -0.38335551545703417,
+     "bounded_a_prime": -0.3245022274568996,
+     "bounded_p": 0.177,
+     "bounded_sign": -1,
+     "registered_a": -0.38335551545703417,
+     "registered_a_prime": -0.3245022274568996,
+     "registered_sign": -1,
+     "registered_p": 0.1736
+    },
+    "W": {
+     "bounded_a": -1.489667764603238,
+     "bounded_a_prime": -1.002314559218761,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.489667764603238,
+     "registered_a_prime": -1.002314559218761,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   }
+  }
+ },
+ "olmo3-instruct|diabetes130": {
+  "share_imputed": 0.0,
+  "formats": {
+   "full": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": -1.9106412982950451,
+     "bounded_a_prime": 1.5938169497263712,
+     "bounded_p": 0.659,
+     "bounded_sign": 0,
+     "registered_a": -1.9106412982950451,
+     "registered_a_prime": 1.5938169497263712,
+     "registered_sign": 0,
+     "registered_p": 0.6696
+    },
+    "W": {
+     "bounded_a": 0.8322448226561029,
+     "bounded_a_prime": -2.1962280199112385,
+     "bounded_p": 0.816,
+     "bounded_sign": 0,
+     "registered_a": 0.8322448226561029,
+     "registered_a_prime": -2.1962280199112385,
+     "registered_sign": 0,
+     "registered_p": 0.8078
+    }
+   },
+   "words": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 0.33303512083055786,
+     "bounded_a_prime": 2.13791149764808,
+     "bounded_p": 0.714,
+     "bounded_sign": 1,
+     "registered_a": 0.33303512083055786,
+     "registered_a_prime": 2.13791149764808,
+     "registered_sign": 1,
+     "registered_p": 0.7214
+    },
+    "W": {
+     "bounded_a": -1.0106914911292288,
+     "bounded_a_prime": -2.0641246061182246,
+     "bounded_p": 0.751,
+     "bounded_sign": -1,
+     "registered_a": -1.0106914911292288,
+     "registered_a_prime": -2.0641246061182246,
+     "registered_sign": -1,
+     "registered_p": 0.773
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 5.8593371914310834,
+     "bounded_a_prime": 1.3617837137242736,
+     "bounded_p": 0.305,
+     "bounded_sign": 1,
+     "registered_a": 5.8593371914310834,
+     "registered_a_prime": 1.3617837137242736,
+     "registered_sign": 1,
+     "registered_p": 0.3116
+    },
+    "W": {
+     "bounded_a": -6.135780769436475,
+     "bounded_a_prime": -1.6209687835038922,
+     "bounded_p": 0.292,
+     "bounded_sign": -1,
+     "registered_a": -6.135780769436475,
+     "registered_a_prime": -1.6209687835038922,
+     "registered_sign": -1,
+     "registered_p": 0.2846
+    }
+   },
+   "cue": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 3.084755441090689,
+     "bounded_a_prime": 1.9135745620799778,
+     "bounded_p": 0.276,
+     "bounded_sign": 1,
+     "registered_a": 3.084755441090689,
+     "registered_a_prime": 1.9135745620799778,
+     "registered_sign": 1,
+     "registered_p": 0.248
+    },
+    "W": {
+     "bounded_a": -3.4795922581018996,
+     "bounded_a_prime": -2.4021341959457825,
+     "bounded_p": 0.237,
+     "bounded_sign": -1,
+     "registered_a": -3.4795922581018996,
+     "registered_a_prime": -2.4021341959457825,
+     "registered_sign": -1,
+     "registered_p": 0.2062
+    }
+   },
+   "matched": {
+    "share_imputed": 0.0,
+    "O": {
+     "bounded_a": 9.077325406372669,
+     "bounded_a_prime": 2.406749038048032,
+     "bounded_p": 0.185,
+     "bounded_sign": 1,
+     "registered_a": 9.077325406372669,
+     "registered_a_prime": 2.406749038048032,
+     "registered_sign": 1,
+     "registered_p": 0.1696
+    },
+    "W": {
+     "bounded_a": -10.155721882011612,
+     "bounded_a_prime": -3.0091601082328996,
+     "bounded_p": 0.149,
+     "bounded_sign": -1,
+     "registered_a": -10.155721882011612,
+     "registered_a_prime": -3.0091601082328996,
+     "registered_sign": -1,
+     "registered_p": 0.136
+    }
+   }
+  }
+ },
+ "phi4-mini|physionet2012": {
+  "share_imputed": 0.4405769230769231,
+  "formats": {
+   "full": {
+    "share_imputed": 0.5288888888888889,
+    "O": {
+     "bounded_a": 2.3679617478878967,
+     "bounded_a_prime": 2.380244199679539,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.7361510388850627,
+     "registered_a_prime": 1.8695102618229678,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -2.0585075465155755,
+     "bounded_a_prime": -2.0544404082996657,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.0183443194392803,
+     "registered_a_prime": -2.080441192847462,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.43966666666666665,
+    "O": {
+     "bounded_a": 2.2332542258568027,
+     "bounded_a_prime": 2.310086850412715,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.7537954503595687,
+     "registered_a_prime": 1.9522576262405287,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -2.4009941620871573,
+     "bounded_a_prime": -2.368589825425086,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.4030319825411413,
+     "registered_a_prime": -2.4699667722193657,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.52,
+    "O": {
+     "bounded_a": 2.215608766751467,
+     "bounded_a_prime": 2.3030551199422273,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.7366424741607365,
+     "registered_a_prime": 1.8773161141796502,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -1.507665000810731,
+     "bounded_a_prime": -1.4965128284953433,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.3792253050435803,
+     "registered_a_prime": -1.4466907772058963,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.5373333333333333,
+    "O": {
+     "bounded_a": -0.11006773286859461,
+     "bounded_a_prime": -0.2569812830504068,
+     "bounded_p": 0.204,
+     "bounded_sign": -1,
+     "registered_a": -0.5149571675281234,
+     "registered_a_prime": -0.6317246492400367,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -1.7677424138547915,
+     "bounded_a_prime": -1.681921226843637,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.8807639417568347,
+     "registered_a_prime": -1.8272676127357639,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.4633333333333333,
+    "O": {
+     "bounded_a": 1.7521343388340775,
+     "bounded_a_prime": 1.6988943159268783,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.2858341861558795,
+     "registered_a_prime": 1.3141320633916482,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -1.442680137461756,
+     "bounded_a_prime": -1.373090524547005,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -1.568027466710097,
+     "registered_a_prime": -1.5250629944161425,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   }
+  },
+  "answer_options": {
+   "bounded_a": 1.7420692068338222,
+   "bounded_a_prime": 1.8279303846557644,
+   "registered_a": 1.5372119253199168,
+   "registered_a_prime": 1.632798944191876
+  }
+ },
+ "phi4-mini|physionet2019": {
+  "share_imputed": 0.5357692307692308,
+  "formats": {
+   "full": {
+    "share_imputed": 0.6755555555555556,
+    "O": {
+     "bounded_a": 0.7632566882519081,
+     "bounded_a_prime": 1.970403612784472,
+     "bounded_p": 0.249,
+     "bounded_sign": 1,
+     "registered_a": 0.9102472116720187,
+     "registered_a_prime": 1.4439477115081245,
+     "registered_sign": 1,
+     "registered_p": 0.1194
+    },
+    "W": {
+     "bounded_a": -0.9395912918638829,
+     "bounded_a_prime": -2.847351844100613,
+     "bounded_p": 0.149,
+     "bounded_sign": -1,
+     "registered_a": -1.542254219910939,
+     "registered_a_prime": -2.6439907869914747,
+     "registered_sign": -1,
+     "registered_p": 0.013
+    }
+   },
+   "words": {
+    "share_imputed": 0.5975,
+    "O": {
+     "bounded_a": 0.8638376610693946,
+     "bounded_a_prime": 2.414921414371726,
+     "bounded_p": 0.298,
+     "bounded_sign": 1,
+     "registered_a": 1.263562519638387,
+     "registered_a_prime": 2.09146682398167,
+     "registered_sign": 1,
+     "registered_p": 0.1232
+    },
+    "W": {
+     "bounded_a": -0.6014293806075938,
+     "bounded_a_prime": -2.796841146689018,
+     "bounded_p": 0.397,
+     "bounded_sign": -1,
+     "registered_a": -1.4653624427664511,
+     "registered_a_prime": -2.829754547141543,
+     "registered_sign": -1,
+     "registered_p": 0.0678
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.7283333333333334,
+    "O": {
+     "bounded_a": 2.5151056124721527,
+     "bounded_a_prime": 2.1789626572263825,
+     "bounded_p": 0.001,
+     "bounded_sign": 1,
+     "registered_a": 2.0033656661141546,
+     "registered_a_prime": 1.5570197354895217,
+     "registered_sign": 1,
+     "registered_p": 0.0002
+    },
+    "W": {
+     "bounded_a": -2.2005248903700187,
+     "bounded_a_prime": -2.276877376222744,
+     "bounded_p": 0.001,
+     "bounded_sign": -1,
+     "registered_a": -1.9013468900250847,
+     "registered_a_prime": -1.8449223928809935,
+     "registered_sign": -1,
+     "registered_p": 0.0006
+    }
+   },
+   "cue": {
+    "share_imputed": 0.5866666666666667,
+    "O": {
+     "bounded_a": 0.09702675447008813,
+     "bounded_a_prime": -0.7026158085978308,
+     "bounded_p": 0.867,
+     "bounded_sign": 0,
+     "registered_a": -0.09214376415081826,
+     "registered_a_prime": -0.8458423026045306,
+     "registered_sign": -1,
+     "registered_p": 0.778
+    },
+    "W": {
+     "bounded_a": -1.5375587587869526,
+     "bounded_a_prime": -1.4067291745440942,
+     "bounded_p": 0.002,
+     "bounded_sign": -1,
+     "registered_a": -2.0609412341083644,
+     "registered_a_prime": -1.8760399973613273,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.6547916666666667,
+    "O": {
+     "bounded_a": 0.9757940272540704,
+     "bounded_a_prime": 0.8776604733313713,
+     "bounded_p": 0.071,
+     "bounded_sign": 1,
+     "registered_a": 1.0670699756239412,
+     "registered_a_prime": 0.5723339610698025,
+     "registered_sign": 1,
+     "registered_p": 0.0242
+    },
+    "W": {
+     "bounded_a": -1.1521286308660452,
+     "bounded_a_prime": -1.7546087046475127,
+     "bounded_p": 0.029,
+     "bounded_sign": -1,
+     "registered_a": -1.6990769838628612,
+     "registered_a_prime": -1.7723770365531526,
+     "registered_sign": -1,
+     "registered_p": 0.0012
+    }
+   }
+  },
+  "answer_options": {
+   "bounded_a": 1.3134303190414378,
+   "bounded_a_prime": 1.3960918003208032,
+   "registered_a": 1.0386774759149375,
+   "registered_a_prime": 1.285623015728214
+  }
+ },
+ "phi4-mini|diabetes130": {
+  "share_imputed": 0.588525641025641,
+  "formats": {
+   "full": {
+    "share_imputed": 0.6930555555555555,
+    "O": {
+     "bounded_a": 4.8928040189020345,
+     "bounded_a_prime": 2.4650164633957976,
+     "bounded_p": 0.021,
+     "bounded_sign": 1,
+     "registered_a": 3.9345985057783066,
+     "registered_a_prime": 1.8728534527177323,
+     "registered_sign": 1,
+     "registered_p": 0.0248
+    },
+    "W": {
+     "bounded_a": -1.7274098807549303,
+     "bounded_a_prime": -2.9746352950087314,
+     "bounded_p": 0.305,
+     "bounded_sign": -1,
+     "registered_a": -2.2184718146588764,
+     "registered_a_prime": -2.7357579358351525,
+     "registered_sign": -1,
+     "registered_p": 0.1272
+    }
+   },
+   "words": {
+    "share_imputed": 0.6428333333333334,
+    "O": {
+     "bounded_a": 3.5237933298706605,
+     "bounded_a_prime": 3.009082822704179,
+     "bounded_p": 0.099,
+     "bounded_sign": 1,
+     "registered_a": 3.5468657619559583,
+     "registered_a_prime": 2.5651913960703916,
+     "registered_sign": 1,
+     "registered_p": 0.0556
+    },
+    "W": {
+     "bounded_a": 0.7994185312731994,
+     "bounded_a_prime": -3.0846517202693855,
+     "bounded_p": 0.779,
+     "bounded_sign": 0,
+     "registered_a": -0.6807801091418513,
+     "registered_a_prime": -2.8893850467582127,
+     "registered_sign": -1,
+     "registered_p": 0.6438
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.7238333333333333,
+    "O": {
+     "bounded_a": 10.821190390584288,
+     "bounded_a_prime": 1.4435850715889844,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 8.668499352542208,
+     "registered_a_prime": 0.9926721980004695,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": -7.419914031407011,
+     "bounded_a_prime": -2.4527755997875067,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -6.935536731412136,
+     "registered_a_prime": -2.0674195983526005,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.621,
+    "O": {
+     "bounded_a": 5.060456797972874,
+     "bounded_a_prime": 0.7259727339403481,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 3.6188756161201243,
+     "registered_a_prime": 0.5927833340694253,
+     "registered_sign": 1,
+     "registered_p": 0.003
+    },
+    "W": {
+     "bounded_a": -4.694028153604952,
+     "bounded_a_prime": -1.4922565637657579,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -4.226457843749351,
+     "registered_a_prime": -1.9858163498959178,
+     "registered_sign": -1,
+     "registered_p": 0.0004
+    }
+   },
+   "matched": {
+    "share_imputed": 0.6960416666666667,
+    "O": {
+     "bounded_a": 7.528168905665994,
+     "bounded_a_prime": 1.6757578906190234,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 6.525056868380352,
+     "registered_a_prime": 1.247116475919956,
+     "registered_sign": 1,
+     "registered_p": 0.0002
+    },
+    "W": {
+     "bounded_a": -4.36277476751889,
+     "bounded_a_prime": -2.1853767222319576,
+     "bounded_p": 0.002,
+     "bounded_sign": -1,
+     "registered_a": -4.8089301772609225,
+     "registered_a_prime": -2.1100209590373757,
+     "registered_sign": -1,
+     "registered_p": 0.0006
+    }
+   }
+  },
+  "answer_options": {
+   "bounded_a": 5.335746855163425,
+   "bounded_a_prime": 2.1675640581476903,
+   "registered_a": 4.535722249387273,
+   "registered_a_prime": 1.9063040026954767
+  }
+ },
+ "qwen-instruct|physionet2012": {
+  "share_imputed": 0.22475,
+  "formats": {
+   "full": {
+    "share_imputed": 0.22694444444444445,
+    "O": {
+     "bounded_a": -3.543390496825404,
+     "bounded_a_prime": -4.47581419509017,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -3.4536980581077543,
+     "registered_a_prime": -4.37050153508012,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 1.8292718723306458,
+     "bounded_a_prime": 1.8351152381765046,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.7368945686358819,
+     "registered_a_prime": 1.7854072942875923,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.20283333333333334,
+    "O": {
+     "bounded_a": -2.7348025731960814,
+     "bounded_a_prime": -3.384539339341988,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.710711466841645,
+     "registered_a_prime": -3.3323152929422672,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 0.33571942184022374,
+     "bounded_a_prime": 0.4385621072122503,
+     "bounded_p": 0.146,
+     "bounded_sign": 1,
+     "registered_a": 0.28942248328902487,
+     "registered_a_prime": 0.43020734223396895,
+     "registered_sign": 1,
+     "registered_p": 0.2222
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.24,
+    "O": {
+     "bounded_a": -2.9008849264655625,
+     "bounded_a_prime": -4.65541465585561,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.808596818335866,
+     "registered_a_prime": -4.583952055553322,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 3.4366703412272175,
+     "bounded_a_prime": 3.002814990910644,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 3.2815682720397157,
+     "registered_a_prime": 2.8628323753837783,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.212,
+    "O": {
+     "bounded_a": 1.0578972539439222,
+     "bounded_a_prime": 0.12192578030008128,
+     "bounded_p": 0.444,
+     "bounded_sign": 1,
+     "registered_a": 1.0958054978027825,
+     "registered_a_prime": 0.17150484679202227,
+     "registered_sign": 1,
+     "registered_p": 0.2786
+    },
+    "W": {
+     "bounded_a": 2.0947952040639013,
+     "bounded_a_prime": 2.0227046056752007,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.9443755224355685,
+     "registered_a_prime": 1.9109743334408953,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   },
+   "matched": {
+    "share_imputed": 0.25395833333333334,
+    "O": {
+     "bounded_a": -3.4326571336137275,
+     "bounded_a_prime": -4.3047001145801955,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -3.367529363333575,
+     "registered_a_prime": -4.229209276988959,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    },
+    "W": {
+     "bounded_a": 1.7185385091189693,
+     "bounded_a_prime": 1.6640011576665301,
+     "bounded_p": 0.0,
+     "bounded_sign": 1,
+     "registered_a": 1.6507258738617026,
+     "registered_a_prime": 1.6441150361964314,
+     "registered_sign": 1,
+     "registered_p": 0.0
+    }
+   }
+  }
+ },
+ "qwen-instruct|physionet2019": {
+  "share_imputed": 0.07841666666666666,
+  "formats": {
+   "full": {
+    "share_imputed": 0.08305555555555555,
+    "O": {
+     "bounded_a": 0.601667368598445,
+     "bounded_a_prime": 0.1956437469017711,
+     "bounded_p": 0.319,
+     "bounded_sign": 1,
+     "registered_a": 0.6027658284738644,
+     "registered_a_prime": 0.21160263983452854,
+     "registered_sign": 1,
+     "registered_p": 0.3204
+    },
+    "W": {
+     "bounded_a": -2.923515303421239,
+     "bounded_a_prime": -2.951200760855845,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.8745226305986984,
+     "registered_a_prime": -2.9023471369189804,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "words": {
+    "share_imputed": 0.06766666666666667,
+    "O": {
+     "bounded_a": 1.9905518289366153,
+     "bounded_a_prime": 1.2813317958245953,
+     "bounded_p": 0.004,
+     "bounded_sign": 1,
+     "registered_a": 1.9796707464045298,
+     "registered_a_prime": 1.2967417466473712,
+     "registered_sign": 1,
+     "registered_p": 0.0038
+    },
+    "W": {
+     "bounded_a": -3.467038727194992,
+     "bounded_a_prime": -3.1165632095292475,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -3.4069778831268343,
+     "registered_a_prime": -3.068210583513067,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.06866666666666667,
+    "O": {
+     "bounded_a": 1.0225463468416494,
+     "bounded_a_prime": 0.4083175252851119,
+     "bounded_p": 0.044,
+     "bounded_sign": 1,
+     "registered_a": 1.0282495935094615,
+     "registered_a_prime": 0.411279027870605,
+     "registered_sign": 1,
+     "registered_p": 0.0376
+    },
+    "W": {
+     "bounded_a": -2.555662657638783,
+     "bounded_a_prime": -1.9789590984402918,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -2.541418859380661,
+     "registered_a_prime": -1.958406731132381,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   },
+   "cue": {
+    "share_imputed": 0.098,
+    "O": {
+     "bounded_a": 0.9066060983176177,
+     "bounded_a_prime": 0.2362922061582673,
+     "bounded_p": 0.207,
+     "bounded_sign": 1,
+     "registered_a": 0.7331740375908038,
+     "registered_a_prime": 0.09692259775853307,
+     "registered_sign": 1,
+     "registered_p": 0.4076
+    },
+    "W": {
+     "bounded_a": -2.0950558009265987,
+     "bounded_a_prime": -1.3610766284114573,
+     "bounded_p": 0.002,
+     "bounded_sign": -1,
+     "registered_a": -2.198423401316287,
+     "registered_a_prime": -1.4545793916330017,
+     "registered_sign": -1,
+     "registered_p": 0.0014
+    }
+   },
+   "matched": {
+    "share_imputed": 0.09,
+    "O": {
+     "bounded_a": 0.8973451384118196,
+     "bounded_a_prime": 0.5382771210211301,
+     "bounded_p": 0.142,
+     "bounded_sign": 1,
+     "registered_a": 0.9433590458213574,
+     "registered_a_prime": 0.5634217273662985,
+     "registered_sign": 1,
+     "registered_p": 0.135
+    },
+    "W": {
+     "bounded_a": -3.2191930732346137,
+     "bounded_a_prime": -3.293834134975204,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -3.2151158479461914,
+     "registered_a_prime": -3.25416622445075,
+     "registered_sign": -1,
+     "registered_p": 0.0
+    }
+   }
+  }
+ },
+ "qwen-instruct|diabetes130": {
+  "share_imputed": 0.027583333333333335,
+  "formats": {
+   "full": {
+    "share_imputed": 0.04722222222222222,
+    "O": {
+     "bounded_a": -5.178010002240638,
+     "bounded_a_prime": -2.6393859587441235,
+     "bounded_p": 0.0,
+     "bounded_sign": -1,
+     "registered_a": -4.978922962489889,
+     "registered_a_prime": -2.554428734350662,
+     "registered_sign": -1,
+     "registered_p": 0.0004
+    },
+    "W": {
+     "bounded_a": 2.9430844001076157,
+     "bounded_a_prime": -1.3851727007694996,
+     "bounded_p": 0.033,
+     "bounded_sign": 0,
+     "registered_a": 2.764445874208314,
+     "registered_a_prime": -1.4462284869246411,
+     "registered_sign": 0,
+     "registered_p": 0.0466
+    }
+   },
+   "words": {
+    "share_imputed": 0.042833333333333334,
+    "O": {
+     "bounded_a": -1.4572475361409407,
+     "bounded_a_prime": 0.6639241563620036,
+     "bounded_p": 0.412,
+     "bounded_sign": 0,
+     "registered_a": -1.4566661610239946,
+     "registered_a_prime": 0.6715536117069778,
+     "registered_sign": 0,
+     "registered_p": 0.3942
+    },
+    "W": {
+     "bounded_a": 3.8713464462504823,
+     "bounded_a_prime": -1.3110463019252,
+     "bounded_p": 0.017,
+     "bounded_sign": 0,
+     "registered_a": 3.8719278213674286,
+     "registered_a_prime": -1.303416846580226,
+     "registered_sign": 0,
+     "registered_p": 0.0182
+    }
+   },
+   "numbers": {
+    "share_imputed": 0.0325,
+    "O": {
+     "bounded_a": -1.8306531901506373,
+     "bounded_a_prime": -1.4654524479941182,
+     "bounded_p": 0.091,
+     "bounded_sign": -1,
+     "registered_a": -1.8298383932983537,
+     "registered_a_prime": -1.4674010085777365,
+     "registered_sign": -1,
+     "registered_p": 0.0988
+    },
+    "W": {
+     "bounded_a": 3.951677174559098,
+     "bounded_a_prime": 0.22768268865293362,
+     "bounded_p": 0.158,
+     "bounded_sign": 1,
+     "registered_a": 3.9524919714113818,
+     "registered_a_prime": 0.22573412806931514,
+     "registered_sign": 1,
+     "registered_p": 0.169
+    }
+   },
+   "cue": {
+    "share_imputed": 0.0345,
+    "O": {
+     "bounded_a": -2.9297496395414484,
+     "bounded_a_prime": -3.5826430765391555,
+     "bounded_p": 0.003,
+     "bounded_sign": -1,
+     "registered_a": -2.937225357276972,
+     "registered_a_prime": -3.611984846751479,
+     "registered_sign": -1,
+     "registered_p": 0.0014
+    },
+    "W": {
+     "bounded_a": -1.5058445899739252,
+     "bounded_a_prime": -2.0615330941118684,
+     "bounded_p": 0.017,
+     "bounded_sign": -1,
+     "registered_a": -1.5133203077094486,
+     "registered_a_prime": -2.0908748643241917,
+     "registered_sign": -1,
+     "registered_p": 0.0168
+    }
+   },
+   "matched": {
+    "share_imputed": 0.03791666666666667,
+    "O": {
+     "bounded_a": -1.0359287785065314,
+     "bounded_a_prime": -1.3196561485671687,
+     "bounded_p": 0.226,
+     "bounded_sign": -1,
+     "registered_a": -0.9889298340257182,
+     "registered_a_prime": -1.290291007819068,
+     "registered_sign": -1,
+     "registered_p": 0.2572
+    },
+    "W": {
+     "bounded_a": -1.1989968236264907,
+     "bounded_a_prime": -2.7049025109464546,
+     "bounded_p": 0.145,
+     "bounded_sign": -1,
+     "registered_a": -1.2255472542558576,
+     "registered_a_prime": -2.7103662134562354,
+     "registered_sign": -1,
+     "registered_p": 0.1368
+    }
+   }
+  }
+ }
+}
