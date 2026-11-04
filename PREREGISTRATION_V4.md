@@ -308,4 +308,10 @@ Every median mass of Qwen2.5-7B-Instruct equals that of the first check to three
 
 ## Deviations
 
-None so far.
+### 2026-11-04: after all runs, before the results of the registered analysis were known
+
+#### V4-D1. Order of the runs
+
+- Section 9 lists the runs in the order Llama-3.1-8B-Instruct, Qwen2.5-7B-Instruct, Olmo-3-7B-Instruct, Falcon3-7B-Instruct, Yi-1.5-9B-Chat-16K, Llama-3.1-8B, Qwen2.5-7B. They were done two Kaggle sessions at a time, in this order: Yi-1.5-9B-Chat-16K and Qwen2.5-7B-Instruct (2 November), Falcon3-7B-Instruct and Olmo-3-7B-Instruct (2 November), Qwen2.5-7B (3 November), and Llama-3.1-8B-Instruct and Llama-3.1-8B (3 November).
+- Each run rebuilds the same patients, cards and prompts (checked by the fingerprints in every run log), and no run reads the output of another, so the order changes no reading. All seven runs used `ler_v4.py` v4-1.2 and downloaded this file at the tag `prereg-v4` (SHA-256 107f6d656c00ab10c9903dc6693f6aa7c9cbc90106b1c2d9106e47ac9b4e28d4) before scoring.
+- I wrote this entry on 2026-11-04, after all runs had finished and before the results of the registered analysis were known.
