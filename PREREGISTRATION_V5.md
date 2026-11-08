@@ -251,4 +251,10 @@ Every reading of the six models that were read was finite, each of them has sing
 
 ## Deviations
 
-None so far.
+### V5-D1 (2026-11-08): order of the runs
+
+Section 9 registers this order of the runs: Qwen3-8B, Falcon3-7B-Instruct, Yi-1.5-9B-Chat-16K, Granite-3.3-8B-Instruct, Llama-3.1-8B-Instruct, Qwen2.5-7B-Instruct, Olmo-3-7B-Instruct. The runs were started in this order instead (start times in UTC, from the timestamps in the run outputs): Qwen3-8B (5 November, 06:00), Falcon3-7B-Instruct (5 November, 10:00), Llama-3.1-8B-Instruct (5 November, 10:26), Olmo-3-7B-Instruct (5 November, 17:34), Yi-1.5-9B-Chat-16K (5 November, 17:35), Qwen2.5-7B-Instruct (6 November, 03:16) and Granite-3.3-8B-Instruct (7 November, 04:44). Up to two runs were in progress at the same time.
+
+The order was registered so that the confirmatory tests would not depend on the last runs if the GPU time ran out. All seven runs finished, each in one session and without a restart, with the registered code (`ler_v5.py` v5-1.0), the protocol at `prereg-v5`, the registered model revisions, the fresh samples of Section 3 and the decisions of Section 10. The order therefore changes no prompt, reading, patient or analysis. The runs took 28.96 GPU hours in total, from 3.32 hours (Qwen3-8B) to 5.97 hours (Yi-1.5-9B-Chat-16K).
+
+This deviation was written on 8 November 2026, after all runs had finished and their technical records (revisions, hashes, fingerprints, completeness, invalid and imputed readings, and the registered validity rules) had been checked, and before the analysis notebook was run. No result of a registered test was known when it was written.
